@@ -1,0 +1,63 @@
+{
+	"Readme"                : "取得年月を変更してください。献本IDは海外献本対象の除外すべき会員IDの全件です。",
+	"取得年月"               : "201806",
+	"除外する献本ID"           : "xxxxx",
+	"取得tsv" : {
+		"contents" : {
+			"Readme"        : "最新レコード以外の重複をの除外したコンテンツデータ全件です。",
+			"tablename"     : "contents",
+			"filepath"      : "xxxxx",
+			"delimita"      : "\t",
+			"eol"           : "\r\n",
+			"wrap"          : "\"",
+			"unique_column" : 0
+		},
+		"customer" : {
+			"Readme"        : "取得年月までの全件データです。",
+			"tablename"     : "customer",
+			"filepath"      : "./tsv_download/tsv/m_customer.tsv",
+			"delimita"      : "\t",
+			"eol"           : "\r\n",
+			"wrap"          : "\"",
+			"unique_column" : 0
+		},
+		"subscription" : {
+			"Readme"        : "取得年月分のsubscriptionデータです。",
+			"tablename"     : "subscription",
+			"filepath"      : "./tsv_download/tsv/subscription.tsv",
+			"delimita"      : "\t",
+			"eol"           : "\r\n",
+			"wrap"          : "\"",
+			"unique_column" : null
+		},
+		"ante_subscription" : {
+			"Readme"        : "取得年月から見た前月分のsubscriptionデータです。",
+			"tablename"     : "ante_subscription",
+			"filepath"      : "./tsv_download/tsv/ante_subscription.tsv",
+			"delimita"      : "\t",
+			"eol"           : "\r\n",
+			"wrap"          : "\"",
+			"unique_column" : null
+		},
+		"cps_point" : {
+			"Readme"        : "取得年月分のポイント付与データです。",
+			"tablename"     : "cps_point",
+			"filepath"      : "./cps_download/cps_point/cps_point.csv",
+			"delimita"      : ",",
+			"eol"           : "\n",
+			"wrap"          : "\"",
+			"unique_column" : null
+		},
+		"cps_subscription" : {
+			"Readme"        : "取得年月分のポイント利用データです。",
+			"tablename"     : "cps_subscription",
+			"filepath"      : "./cps_download/cps_subscription/cps_subscription.csv",
+			"delimita"      : ",",
+			"eol"           : "\n",
+			"wrap"          : "\"",
+			"unique_column" : null
+		}
+	}
+}
+
+
