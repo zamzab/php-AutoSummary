@@ -1,1 +1,1 @@
-# php-AutoSummary
+KPIの数値を自動で集計する
